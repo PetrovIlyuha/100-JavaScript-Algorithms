@@ -6,5 +6,6 @@ function centuryFromYear(year) {
   return Math.floor(century) + 1;
 }
 
-console.log(centuryFromYear(1905));
-console.log(centuryFromYear(1700));
+console.log(centuryFromYear(1499));
+console.log(centuryFromYear(1701));
+console.log(centuryFromYear(2019));
