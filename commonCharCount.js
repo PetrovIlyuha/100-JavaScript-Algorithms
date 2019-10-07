@@ -5,9 +5,7 @@ function commonCharCount(string1, string2) {
   const s2CharCount = getCharList(s2Chars);
   let total = 0;
   let common_Characters = [];
-  console.log(s1CharCount);
-  console.log(s2CharCount);
-  
+    
   for (const prop in s1CharCount) {
     if(s2CharCount.hasOwnProperty(prop)) {
       common_Characters.push(prop);
@@ -34,4 +32,5 @@ function getCharList(chars) {
   return wordCount;
 }
 console.log(commonCharCount('simultaneous', 'available'));
+
 
