@@ -1,2 +1,6 @@
-*.html
-*.ts
+node_modules
+.cache/
+dist/
+.env
+coverage/
+.vscode/
