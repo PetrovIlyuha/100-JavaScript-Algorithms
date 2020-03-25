@@ -1,5 +1,4 @@
 function hasNoneLetters(blacklist, phrase) {
-  console.log(blacklist.toLowerCase());
   return blacklist
     .toLowerCase()
     .split("")
@@ -13,5 +12,5 @@ function hasNoneLetters(blacklist, phrase) {
     .every(value => value === true);
 }
 
-console.log(hasNoneLetters("abcdef", "fgh"));
+console.log(hasNoneLetters("abcdef", "fruit"));
 console.log(hasNoneLetters("ABCD", "def"));
